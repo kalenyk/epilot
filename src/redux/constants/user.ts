@@ -1,0 +1,6 @@
+export const SET_ACTIVE_USER = 'SET_ACTIVE_USER';
+export const CLEAR_ACTIVE_USER = 'CLEAR_ACTIVE_USER';
+
+export const GET_USER = 'GET_USER';
+export const GET_USER_SUCCESS = 'GET_USER_SUCCESS';
+export const GET_USER_FAILURE = 'GET_USER_FAILURE';
