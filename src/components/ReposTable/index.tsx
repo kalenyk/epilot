@@ -17,7 +17,6 @@ const ReposList: React.FC = () => {
     const { reposList, loading, error, reposPerPage, page } = useSelector((state: IRootState) => state.repos);
     const { data, activeUser: user, loading: userLoading, error: userError } = useSelector((state: IRootState) => state.user);
 
-    console.log('data',data);
     const totalPages = useMemo(() => {
         if (reposPerPage && data['public_repos']) {
             return Math.ceil(data['public_repos'] / reposPerPage);

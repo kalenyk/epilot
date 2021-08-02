@@ -1,4 +1,4 @@
-const apiURL = 'https://api.github.com/users/';
+const apiURL = `${process.env.REACT_APP_API_URL}/users/`;
 
 export const request: any = (user: number, method = 'GET', url = '') => {
 
